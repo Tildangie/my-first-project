@@ -1,0 +1,15 @@
+nav{
+    border: 1px;
+    background-color: #D0D5DD;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    align-items: center;
+    border-radius: 3rem;
+
+    
+      
+}
+span{
+    color: blue;
+}

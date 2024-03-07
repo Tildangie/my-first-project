@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+body{
+    font-family: inter;
+    }
+nav{
+    border: 1px;
+    background: #D0D5DD;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.3rem;
+    align-items: center;
+    border-radius: 2rem;   
+    margin: 3rem;
+}
+    
+    nav .logo{
+        display: flex;
+        align-items: center;
+        gap: .5rem;
+    }
+
+    nav .logo a{
+        color: #101828;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    nav .logo a span{
+        color: blue;
+
+    }
+nav .links{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+nav .links .link{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+nav .links .link a{
+    color: #667085;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+nav.span{
+    color: blue;
+}
+nav .buttons{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+
+}
+nav .buttons #white{
+    padding: 1rem 2rem 1rem 2rem;
+    background: #ffffff;
+    border: 1px;
+    border-radius: 3rem;
+    cursor: pointer;
+    color: #101828;
+
+}
+nav .buttons #blue{
+    padding: 1rem 2rem 1rem 2rem;
+    background: #175CD3;
+    border: 1px;
+    border-radius: 3rem;
+    cursor: pointer;
+    color: #FFFFFF;
+
+}
+.firstbase{
+    display: flex;
+    flex-direction: row;
+    margin: 7rem;
+}
+.firstbase .header .text{
+    color: #1d2939;
+    font-weight: normal;
+    gap: 1.5rem;
+    margin-right: 25rem;
+    justify-content: center;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.header .texts{
+    display: flex;
+    flex-direction: column;
+}
+.header .buttons{
+    display: block;
+    margin: 1rem;
+    row-gap: 1rem;
+}
+.header .buttons #blue{
+    padding: 1rem 2rem 1rem 2rem;
+    background: #175CD3;
+    border: 1px;
+    border-radius: 3rem;
+    cursor: pointer;
+    color: #FFFFFF;
+    gap: 1rem;
+}
+.header .buttons #white{
+    padding: 1rem 2rem 1rem 2rem;
+    background: #FFFFFF;
+    border: 1px;
+    border-radius: 3rem;
+    cursor: pointer;
+    color: #175cd3;
+    gap: 1rem;
+}
+.header .buttons{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+firstbase .header .buttons{
+    display: block;
+    margin: 1rem;
+    gap: 5rem;
+}
+.firstbase .header .preview{
+    display: flex;
+    gap: 1rem;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5rem;
+    background: #B2DDFF;
+    border: 3rm;
+    border-radius: 20px;
+    padding: 2rem;
+    image-resolution: 100px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
